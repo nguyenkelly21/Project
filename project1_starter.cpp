@@ -123,7 +123,7 @@ int main() {
     for(int i = 0; i < free_time.size(); i++){
         output << "[" <<free_time[i].first<<","<<free_time[i].second<<"], ";
     }
-    output <<"]" << endl;
+    output <<"]" << endl << endl;
   }
   return 0;
 }
